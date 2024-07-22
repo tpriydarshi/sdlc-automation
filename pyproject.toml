@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sdlc-agents"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+langchain = "^0.2.10"
+openai = "^1.36.1"
+streamlit = "^1.36.0"
+pydantic = "^2.8.2"
+crewai = "^0.41.1"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.9"
+plotly = "^5.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
