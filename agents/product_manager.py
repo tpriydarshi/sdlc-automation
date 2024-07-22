@@ -16,7 +16,7 @@ class ProductManagerAgent(Agent):
 
     def create_user_stories(self, requirements):
         prompt = f"""
-        Based on these project requirements, create 3-5 user stories:
+        Based on these project requirements, create 8-10 user stories:
         {requirements}
         
         Format each user story as:
